@@ -28,3 +28,7 @@ git rm --cached "archivo.extencion"          ->para quetar de la lista mas no bo
 
 git commit -m "mensaje descriptivo"            ->para subir los enlistados en cache y dejar un
                                                 aviso descriptivo de que va o que se hizo
+
+Para despues de cambios en 1 o mas archivos, se deve volver a ahcer el "git add"
+pra agregar todos los archisvos cambiados, 
+    en consola: git add .    ->donde el "." indica todo dentro del dir
