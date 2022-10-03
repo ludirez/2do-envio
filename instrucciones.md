@@ -33,4 +33,7 @@ Para despues de cambios en 1 o mas archivos, se deve volver a ahcer el "git add"
 pra agregar todos los archisvos cambiados, 
     en consola: git add .    ->donde el "." indica todo dentro del dir
 
-git log "archivo.extencion"  -->mostrara el historiua de cambios de el archivo
+git log "archivo.extencion"  -->mostrara el historial de cambios de el archivo.
+
+mas comandos:
+git show "archivo.extencion"  ->sin coillas, mostrara lo que s e ha cambiado
