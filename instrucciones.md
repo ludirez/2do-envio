@@ -40,3 +40,4 @@ git show "archivo.extencion"  ->sin coillas, mostrara lo que s e ha cambiado
 
 git diff "dumero del comid a" "numeor de comit b"   ->compara a vs b
 
+cada commit es una version de el archivo. con "checkout" se trae devuelta la vercion que encesitesmos con en codigo de numeros largos de cada log. ejemplos proximos
