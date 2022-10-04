@@ -37,3 +37,6 @@ git log "archivo.extencion"  -->mostrara el historial de cambios de el archivo.
 
 mas comandos:
 git show "archivo.extencion"  ->sin coillas, mostrara lo que s e ha cambiado
+
+git diff "dumero del comid a" "numeor de comit b"   ->compara a vs b
+
