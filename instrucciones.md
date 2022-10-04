@@ -41,3 +41,19 @@ git show "archivo.extencion"  ->sin coillas, mostrara lo que s e ha cambiado
 git diff "dumero del comid a" "numeor de comit b"   ->compara a vs b
 
 cada commit es una version de el archivo. con "checkout" se trae devuelta la vercion que encesitesmos con en codigo de numeros largos de cada log. ejemplos proximos
+
+Ramas del proyecto.
+    "master" que ahora se llama "main" es la principal
+    "development" para probar cosas
+    "bugfinxing" llamado ahora "hotfix" para arreglos urgentes
+pueden haber muchas mas ramas, lo importante es aprender a hacer "merge" que es la union de las ramas  alternar con al sagrada linea del tiempo principal.
+
+    Volver en el tiempo.
+git log                     nos mostrará  todos los comid, selecionamos a donde queremos ir.
+                            nos apoyaremos en los mensajes. pore so su importancia.
+                            selecionamos el NunCommit al que queremos voler
+
+git reset nunCommit --hard   para volver la la version selecionada y se pierde lo que precedia
+                            al NumCommit
+
+git reset nunCommit --soft        
