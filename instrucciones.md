@@ -56,4 +56,8 @@ git log                     nos mostrará  todos los comid, selecionamos a donde
 git reset nunCommit --hard   para volver la la version selecionada y se pierde lo que precedia
                             al NumCommit
 
-git reset nunCommit --soft        
+git reset nunCommit --soft   por definir
+
+se creo una caprta con un html y un css, y cambiamos el nombre de un archivo texto.txt a historio.txt apra hacer el ejercicio de solo volver a historia.txt a si nombre anterior.
+
+git log --stat      para ver exactamente que se ha cambiado en cada commit
