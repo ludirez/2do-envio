@@ -76,3 +76,6 @@ nota importante explicativa
 ```html
     <a href="/comando rm en git.md"></a>
 ```
+Mas Comandos:
+
+git commit -am      ->hara un "add ." y un "commit" en un solo paso. simpre y cuando no se hayan creado nuevos archivos
