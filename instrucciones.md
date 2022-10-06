@@ -61,3 +61,18 @@ git reset nunCommit --soft   por definir
 se creo una caprta con un html y un css, y cambiamos el nombre de un archivo texto.txt a historio.txt apra hacer el ejercicio de solo volver a historia.txt a si nombre anterior.
 
 git log --stat      para ver exactamente que se ha cambiado en cada commit
+
+git checkout NumCommit "archivo.extencion"      nos mostrará el archivo que solicitemos a su status que se
+                                                encontraba en el NumComiit que le pasamos.
+    en mi ejemplo, antes del ejercicio, cambie el nombre del archivo. 
+    intentare llamarlo con su nombre actual. 
+    no funciono. huvo que llamarlo por su antiguo nombre
+    al traerlo con el nombre antiguo, se me generaron 2 archivos en el workspace. el primero que mande a  llamar y el mas reciente con otro nombre. entonces, averiguar que aplicaciones se le puede dar a este bug.
+
+git checkout master "archivo.extencion"         nos traera de regreso la version ams reciente. simpre y cuando no se ahya hecho 
+                                                un reset --hard y como el ejemplo pasado, no se le haya cambiano el nombre al archivo
+
+nota importante explicativa
+```html
+    <a href="/comando rm en git.md"></a>
+```
