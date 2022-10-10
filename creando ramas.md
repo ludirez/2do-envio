@@ -12,3 +12,11 @@
         esc+i apra empezar a escribir
         Esc+shiff+zz para guardar y salir
     
+    git log para ver los cambios
+    git log -stat para ver ams detalles
+    git show mostrara detalles de los cambios realizados
+    
+    ----> LETRA Q PARA SALIR <--------------
+
+2do, Ceando rama
+    git branch "nombre de la rama"  ->sin comillas, crea rama
