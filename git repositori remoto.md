@@ -8,20 +8,14 @@ Esto significa que debes aprender algunos nuevos comandos
 
 Comandos para trabajo remoto con GIT
 git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
-
 git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
-
 git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
-
 git merge: También usamos el comando git merge con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
-g
-it pull: Básicamente, git fetch y git merge al mismo tiempo.
+git pull: Básicamente, git fetch y git merge al mismo tiempo.
 Adicionalmente, tenemos otros comandos que nos sirven para trabajar en proyectos muy grandes:
 
 git log --oneline:Te muestra el id commit y el título del commit.
-
 git log --decorate: Te muestra donde se encuentra el head point en el log.
-
 git log --stat: Explica el número de líneas que se cambiaron brevemente.
 git log -p: Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
 git shortlog: Indica que commits ha realizado un usuario, mostrando el usuario y el título de sus commits.
