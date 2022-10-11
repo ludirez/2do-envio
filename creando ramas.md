@@ -20,3 +20,4 @@
 
 2do, Ceando rama
     git branch "nombre de la rama"  ->sin comillas, crea rama
+    git branch -M "newname" --> renombra la rama..
