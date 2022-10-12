@@ -7,12 +7,16 @@ Modo 1 HTPPS
 	elejir publico o privado
 	crear archivo README.TXT
 	aun no agregar licencias.
-	Clone o Download y elejir HTTPS 
+	Clone o Download y elegir SSH
 	vamos decirle a git que vamos a agregar un origen remoto
-		git remote add origin https://github.com/ludirez/2do-envio.git
+		git remote add origin git@github.com:xxx.git (lo da hithub)
 		git remote  -->mostrata doden estamos ahora
 		git remote -v ->muestra mas info. rutaa para hacer Fetch y Push
 	Rwcordemos que cambiamos el nombre de la ramna master a main con git branch -m "newName"
-		git push origin main		->mandara rama main del local a origin del remoto
-	pedira nombre de ususario y pass de git hub
+		git push -u origin main		->mandara rama main del local a origin del remoto
+para cambiar el origen puedes:
+1.-revisar el origen configurado con
+		git config --list
+2.-Sobre escribir el origen
+		git remote set-url origin git@github.com:xxx.git
 	
