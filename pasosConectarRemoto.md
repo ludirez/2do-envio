@@ -14,3 +14,5 @@ Modo 1 HTPPS
 		git remote -v ->muestra mas info. rutaa para hacer Fetch y Push
 	Rwcordemos que cambiamos el nombre de la ramna master a main con git branch -m "newName"
 		git push origin main		->mandara rama main del local a origin del remoto
+	pedira nombre de ususario y pass de git hub
+	

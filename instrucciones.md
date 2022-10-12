@@ -3,8 +3,8 @@ en la carpeta de trabajo, en la consola:
 
 configuracionde git, nombre de usuario
 git config          ->lista de loq ue se peude configurar
-git --list
-git config --list --show-origin
+git config --list
+git config --list --show-origin --->para mostrar ususario configurado
 
     1.-verificar nombre de usuario.
         en la terminal: git config --global user.name "nombredeusuariogithub" (incluye comillas)
