@@ -21,3 +21,6 @@
 2do, Ceando rama
     git branch "nombre de la rama"  ->sin comillas, crea rama
     git branch -M "newname" --> renombra la rama..
+	
+3ro. git checkout "nombre de rama"  ->para desplasarse entre ramas
+	git branch  ->para ver todas las ramas y saber en cual estoy

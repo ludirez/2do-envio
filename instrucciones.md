@@ -54,7 +54,7 @@ git log                     nos mostrará  todos los comid, selecionamos a donde
                             selecionamos el NunCommit al que queremos voler
 
 git reset nunCommit --hard   para volver la la version selecionada y se pierde lo que precedia
-                            al NumCommit
+                            al NumCom|mit
 
 git reset nunCommit --soft   por definir
 
@@ -78,4 +78,4 @@ nota importante explicativa
 ```
 Mas Comandos:
 
-git commit -am      ->hara un "add ." y un "commit" en un solo paso. simpre y cuando no se hayan creado nuevos archivos
+git commit -am  "mensaje descriptivo"    ->hara un "add ." y un "commit" en un solo paso. simpre y cuando no se hayan creado nuevos archivos
