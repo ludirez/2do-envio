@@ -17,6 +17,10 @@ Modo 1 HTPPS
 para cambiar el origen puedes:
 1.-revisar el origen configurado con
 		git config --list
-2.-Sobre escribir el origen
+2.-para Sobreescribir el origen:
 		git remote set-url origin git@github.com:xxx.git
+
+puede que de coflicto  si tienes el deadme o almos mas en el repo donde vas a subir,
+entonces debes bajar al repo local loq ue tegan en el remoto para asi se sincronice 
+y olver a ahcer el push sin problemas.
 	
