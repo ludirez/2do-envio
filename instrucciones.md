@@ -1,7 +1,7 @@
 desde Ubuntu.
 en la carpeta de trabajo, en la consola: 
 
-configuracionde git, nombre de usuario
+configuracionde git, 00nombre de usuario
 git config          ->lista de loq ue se peude configurar
 git config --list
 git config --list --show-origin --->para mostrar ususario configurado
