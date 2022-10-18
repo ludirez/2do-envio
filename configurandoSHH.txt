@@ -48,11 +48,18 @@ configurando llave publica en github
             cat ~/.shh/id_rsa.pub       ->mostrará la keypub en consola, copiar y pegar en git hub.
 
 Subiendo a repositorio remoto
-    git
+    git brach -M main       ->cambiar la rama del repo local de nombre a main. para que conincida con la del repo remoto
+    git remote add origin git@github.com:nombreDelRepositorio.git   ->diciendole a git que hay un origen remoto
+    git remote -v   mostrara direcion apra hacer "fetch" (subir cosas)
+                    mostrara direcion para hacer "push" (enviar cosas)
+    git push origin main    ->lease así: git enviale al origen la rama main
 
 Bajando de repositorio remoto
 ir al repositorio en github y en el boton code, deplegamos, seleccionamos SSH y copiamos la ruta.
-antes debes tener sin 
+antes debes tener el arbol de trabajo limpio. luego de hacer un add y un commit, con un status te dirá : nothing to commit, working tree clear.
 en consola:
-
-
+    git brach -M main       ->cambiar la rama del repo local de nombre a main. para que conincida con la del repo remoto
+    git remote add origin git@github.com:nombreDelRepositorio.git   ->diciendole a git que hay un origen remoto
+    git remote -v   mostrara direcion apra hacer "fetch" (subir cosas)
+                    mostrara direcion para hacer "push" (enviar cosas)
+    
