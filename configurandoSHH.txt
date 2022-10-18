@@ -62,4 +62,9 @@ en consola:
     git remote add origin git@github.com:nombreDelRepositorio.git   ->diciendole a git que hay un origen remoto
     git remote -v   mostrara direcion apra hacer "fetch" (subir cosas)
                     mostrara direcion para hacer "push" (enviar cosas)
+                    los pasos  para bajar serian:
+                                    git fetch
+                                    git merge
+o lo mismo que es 
+    git pull origin main    ->se traera todo lo del remoto al local
     
