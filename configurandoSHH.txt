@@ -67,4 +67,7 @@ en consola:
                                     git merge
 o lo mismo que es 
     git pull origin main    ->se traera todo lo del remoto al local
+
+dara error pues no comparten el mismo hisrotial de commit. se arregla con :
+    git pull origin main --allow-unrelated-histories    ->despues del proceso ctrl+X apra salir
     
