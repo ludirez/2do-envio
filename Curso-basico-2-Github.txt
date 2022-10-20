@@ -4,7 +4,7 @@ en consola:
         git config --global user.email "correo registrado en github" ->con comilllas
         git config --list  -->para listar y ver que quedo configurado
 
-en la carpeta de trabajo - Flujo basico de trabajo
+->en la carpeta de trabajo - Flujo basico de trabajo
     git init        ->inicia el seguimiento y registro de commits locales en la carpeta .git
     ls -lha         ->la carpeta .git esta oculta, este comando la mostrará
     git status      ->mostrara los quechivos trakeatos en rojo
@@ -13,6 +13,7 @@ en la carpeta de trabajo - Flujo basico de trabajo
     git commit -m "mensaje"         ->guardará en el repositorio local los cambios. el mensaje es obligatorio y descriptivo de lo que se esta actualizadno ene l commit
     
 ->Para sacar del estado verde al rojo antes de hacer el commit:
+    git rm --cached "archivo.extension"     ->sin comillas, elimina los archivos en staging pero los mantiene en el disco duro.
 
 
 ->Comandos adicionales de utilidad
