@@ -1,0 +1,14 @@
+->Comando git log y sus variantes
+    git log                 ->para visualizar todos los commit de la rama en la que estemos
+    git log --all           ->muestras todo los commit del proyecto en todas sus ramas
+    git log --all --graph   ->muestra historia mas graficamente
+    git log --all --graph --decorate --oneline      ->muestras toda la historia del proyecto, mas comprimido
+
+->Creando alias. shortcut para llamar comandos largos
+    alias palabraclave="git log --all --graph --decorate --oneline"
+        asignará todo el comando largo a la palabraclave definida. como asignarle un valor a una variable
+        para llamarlo solo se escribe al aplabra clave enter
+
+->Creando tags. Etiquetas adicionales para identificar veriones  u otros elementos importntes
+    
+
