@@ -19,9 +19,18 @@
     git branch -M "newname"             ->renombra la rama en la que se esta actualmente
     git branch -d "nombreDeLaRama"      -> para eliminar rama
 	git checkout "nombre de rama"       ->para desplasarse entre ramas
+    git 
     git show-branch                     ->muestra las ramas que hay y el ultimo cmmit de cada una
     git show branch --all               ->igual anterior pero con mas detalles
+    git merge "nombreDeLaRama"          ->fusiona la mara actual con la rama que definimos en el comando.
 
     https://www.gitkraken.com/  herramienta visual para hacer seguimiento de las ramas, commits y demas.
 
-    
+    ->Agragar Rama local a Remoto
+        actualizar repociotrio local con add y commit
+        git pull origin main            ->para traer la ultima version del remoto
+        git push origin main            ->para subir todo actualizado en el pc
+        git checkout "nombreDeLaRama"   ->nos movemos a la rama que queremos subir
+        git push origin "nombreDeLaRama"->empujamos a el remoro (origin) nuestra rama local
+        
+
