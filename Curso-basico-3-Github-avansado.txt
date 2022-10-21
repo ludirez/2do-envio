@@ -33,4 +33,5 @@
         git checkout "nombreDeLaRama"   ->nos movemos a la rama que queremos subir
         git push origin "nombreDeLaRama"->empujamos a el remoro (origin) nuestra rama local
         
-
+->Flujo de trabajo profecional
+    
