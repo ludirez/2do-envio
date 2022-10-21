@@ -10,5 +10,17 @@
         para llamarlo solo se escribe al aplabra clave enter
 
 ->Creando tags. Etiquetas adicionales para identificar veriones  u otros elementos importntes
-    
+    git tag     ->muestra lista de tag creados
+        hay que actualizar y agragar mas info puntual ya que la clase de freddy no se ejecuta igual. supongo que po lo viejo del video.
 
+->Manejo de ramas
+    git branch                          ->para ver todas las ramas y saber en cual estoy
+    git branch "nombre de la rama"      ->sin comillas, crea rama
+    git branch -M "newname"             ->renombra la rama en la que se esta actualmente
+	git checkout "nombre de rama"       ->para desplasarse entre ramas
+    git show-branch                     ->muestra las ramas que hay y el ultimo cmmit de cada una
+    git show branch --all               ->igual anterior pero con mas detalles
+
+    https://www.gitkraken.com/  herramienta visual para hacer seguimiento de las ramas, commits y demas.
+
+    
