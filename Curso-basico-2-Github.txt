@@ -18,6 +18,7 @@ en consola:
 
 ->Comandos adicionales de utilidad
     git Log                         ->mostrará listado de commits realizados, su codigo de seguimiento para restaurarlo de ser encesario y el mensaje descriptivo para mayor claridad
+    git diff                        ->mostrará los cambios hechos en el ultimo archivo en staging
 
 ->Creando Llave SSH
     en consola, en la raiz del usuario -> ~$
