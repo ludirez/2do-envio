@@ -1,0 +1,17 @@
+#ignorar todos los .jpg
+*.jpg
+
+#más ejemplo de coo ignorar
+
+/storage/*.key
+.env
+Homestead.json
+*.log
+
+#excepciones
+
+/content/themes/**/*
+!/content/themes/casper
+
+#librerias externas
+/node_modules

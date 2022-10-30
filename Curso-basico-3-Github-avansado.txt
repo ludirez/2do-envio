@@ -34,4 +34,9 @@
         git push origin "nombreDeLaRama"->empujamos a el remoro (origin) nuestra rama local
         
 ->Flujo de trabajo profecional
+    pull requests
+    fork o bifurcaciones. conar el proyecto publico
+    despliegue a servidor (deploy) desplegar en un servidor clonando desde github y los cambios realizados se vean en al web
+
+->ignorar archivos en el repositorio con .gitignore
     
