@@ -1,4 +1,7 @@
-Luego de haber creado cuanta en github.
+git "comando" --help        ->para ver el manual uso completo y extendido del comando.
+
+        Luego de haber creado cuanta en github.
+        
 en consola:
         git config --global user.name "nombre de ususario de github" ->con comillas}
         git config --global user.email "correo registrado en github" ->con comilllas
@@ -14,7 +17,6 @@ en consola:
     
 ->Para sacar del estado verde al rojo antes de hacer el commit:
     git rm --cached "archivo.extension"     ->sin comillas, elimina los archivos en staging pero los mantiene en el disco duro.
-
 
 ->Comandos adicionales de utilidad
     git Log                         ->mostrará listado de commits realizados, su codigo de seguimiento para restaurarlo de ser encesario y el mensaje descriptivo para mayor claridad
@@ -74,4 +76,3 @@ en consola:
     o lo mismo que es:
     git pull origin main    ->se traera todo lo del remoto al local. dará error pues no comparten el mismo hisrotial de commit. se arregla con :
         git pull origin main --allow-unrelated-histories    ->despues del proceso ctrl+X apra salir
-
